@@ -129,11 +129,14 @@
                     <p class="text-gray-600">Adjust the inputs below to see your potential cost savings with InForce</p>
                 </div>
 
-                <!-- Two Column Layout: Inputs + Results -->
-                <div class="grid lg:grid-cols-2 gap-8">
+                <!-- Main Calculator Card -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
 
-                    <!-- Left Column: Calculator Inputs -->
-                    <div class="bg-white rounded-lg shadow-lg p-6">
+                    <!-- Top Section: Two Column Layout (Inputs + Results) -->
+                    <div class="grid lg:grid-cols-2 gap-8 p-6 lg:p-8">
+
+                        <!-- Left Column: Calculator Inputs -->
+                        <div>
 
                     <!-- Input 1: Hourly Rate -->
                     <div class="mb-8">
@@ -207,14 +210,11 @@
                         </select>
                     </div>
 
-                    </div>
-                    <!-- End Left Column: Inputs -->
+                        </div>
+                        <!-- End Left Column: Inputs -->
 
-                    <!-- Right Column: Results -->
-                    <div class="space-y-6">
-
-                        <!-- Cost Comparison Card -->
-                        <div class="bg-white rounded-lg shadow-lg p-6">
+                        <!-- Right Column: Results -->
+                        <div>
                             <h3 class="text-xl font-bold text-gray-900 mb-4 text-center">Cost Comparison</h3>
 
                     <!-- Comparison -->
@@ -287,28 +287,31 @@
                         </div>
 
                     </div>
-                        </div>
-                        <!-- End Cost Comparison Card -->
 
-                        <!-- Savings Callout Card -->
-                        <div class="bg-gradient-to-r from-savings-green to-green-600 text-white rounded-lg shadow-lg p-6 text-center">
-                            <div class="text-xs font-semibold uppercase tracking-wide mb-2">SAVINGS WITH INFORCE</div>
-                            <div class="text-4xl font-bold mb-2" x-text="'$' + savings.toLocaleString()"></div>
-                            <div class="text-sm" x-text="'That\\'s ' + savingsPercent + '% of project budget'"></div>
                         </div>
-
-                        <!-- CTA Button -->
-                        <div class="text-center">
-                            <button class="w-full bg-inforce-blue hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition-colors">
-                                Book Your Call →
-                            </button>
-                        </div>
+                        <!-- End Right Column: Results -->
 
                     </div>
-                    <!-- End Right Column: Results -->
+                    <!-- End Top Section: Two Column Grid -->
+
+                    <!-- Middle Section: Savings Callout (Full Width) -->
+                    <div class="bg-gradient-to-r from-savings-green to-green-600 text-white p-8 text-center">
+                        <div class="text-sm font-semibold uppercase tracking-wide mb-2">YOUR SAVINGS WITH INFORCE</div>
+                        <div class="text-5xl font-bold mb-2" x-text="'$' + savings.toLocaleString()"></div>
+                        <div class="text-lg" x-text="'That\\'s ' + savingsPercent + '% of your $' + projectBudget.toLocaleString() + ' project budget'"></div>
+                        <p class="text-sm mt-3 text-green-100">Enough to hire an additional senior consultant for the entire project</p>
+                    </div>
+
+                    <!-- Bottom Section: CTA Button (Full Width) -->
+                    <div class="bg-gray-50 p-6 text-center">
+                        <button class="bg-inforce-blue hover:bg-blue-700 text-white font-bold py-4 px-12 rounded-lg text-lg transition-colors shadow-md hover:shadow-lg">
+                            Book Your Call with InForce →
+                        </button>
+                        <p class="text-sm text-gray-600 mt-3">See how we can eliminate your productivity value gap</p>
+                    </div>
 
                 </div>
-                <!-- End Two Column Grid -->
+                <!-- End Main Calculator Card -->
 
             </div>
         </section>
