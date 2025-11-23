@@ -1,6 +1,6 @@
-# InForce ROI Calculator - MVP
+# INFORCE ROI Calculator - MVP
 
-**Client:** InForce Technologies
+**Client:** INFORCE Technologies
 **Project:** Productivity Value Gap ROI Calculator
 **Built By:** Chase Aldridge (with Moe)
 **Date:** November 2025
@@ -9,9 +9,9 @@
 
 ## Overview
 
-Interactive ROI calculator demonstrating cost savings from InForce's 95% retention rate vs. industry-standard turnover.
+Interactive ROI calculator demonstrating cost savings from INFORCE's 95% retention rate vs. industry-standard turnover.
 
-Based on whitepaper: **"The Need to Turnaround Turnover"** by Mirko Kovacevic (VP of Customer Success, InForce)
+Based on whitepaper: **"The Need to Turnaround Turnover"** by Mirko Kovacevic (VP of Customer Success, INFORCE)
 
 ---
 
@@ -60,7 +60,7 @@ Based on Mirko's whitepaper 3-component model:
 
 ### Static Assumptions
 
-- **InForce Turnover:** 5% annually (95% retention - whitepaper validated)
+- **INFORCE Turnover:** 5% annually (95% retention - whitepaper validated)
 - **Competitor Turnover:** 30% annually ⚠️ (requires Rick validation)
 - **Vacancy Payment:** 100% (whitepaper validated, page 4)
 - **Onboarding Duration:** 5 days (subset of whitepaper's 3-week total)
@@ -105,14 +105,14 @@ Simply open `index.html` in a browser - no build process needed!
 ### ✅ Whitepaper Validated
 - Idle Time: 2 weeks
 - Payment during gaps: 100%
-- InForce retention: 95%
+- INFORCE retention: 95%
 - PVG 3-component framework
 
 ### ⚠️ Requires Rick/Mirko Validation
 - Competitor 30% turnover assumption
 - Ramp-up timelines by experience level
 - Expertise Gap component (4th addition)
-- InForce project data for citations
+- INFORCE project data for citations
 
 ---
 
@@ -128,7 +128,7 @@ Simply open `index.html` in a browser - no build process needed!
 - 5 turnover events
 - Cost: $332,000
 
-**InForce (5% turnover):**
+**INFORCE (5% turnover):**
 - 1 turnover event
 - Cost: $66,400
 
@@ -151,7 +151,7 @@ Every assumption is either:
 
 1. ⏳ Validation call with Rick + Mirko
 2. ⏳ Adjust assumptions based on feedback
-3. ⏳ Get InForce brand assets (logo, colors, fonts)
+3. ⏳ Get INFORCE brand assets (logo, colors, fonts)
 4. ⏳ Add real project data if available
 5. ⏳ Deploy demo to VPS for Rick to test
 6. ⏳ Iterate based on Rick's feedback
@@ -163,10 +163,10 @@ Every assumption is either:
 
 **Developer:** Chase Aldridge
 **Project Lead:** Moe (WorkFlowClick)
-**Client Contact:** Rick Riley (InForce Technologies)
+**Client Contact:** Rick Riley (INFORCE Technologies)
 
 ---
 
 ## License
 
-Proprietary - Built for InForce Technologies
+Proprietary - Built for INFORCE Technologies

@@ -1,5 +1,5 @@
 /**
- * InForce ROI Calculator - Core Logic
+ * INFORCE ROI Calculator - Core Logic
  *
  * Based on whitepaper: "The Need to Turnaround Turnover" by Mirko Kovacevic
  * Implements Productivity Value Gap (PVG) framework
@@ -17,7 +17,7 @@ function calculator() {
         experienceLevel: 'mixed', // junior, mixed, senior
 
         // STATIC ASSUMPTIONS (whitepaper-validated)
-        inForceTurnover: 0.05,     // ✅ 5% annual (95% retention - whitepaper confirmed)
+        inforceTurnover: 0.05,     // ✅ 5% annual (95% retention - whitepaper confirmed)
         competitorTurnover: 0.30,  // ⚠️ 30% annual (requires Rick validation)
         vacancyWeeks: 2,           // ✅ 2 weeks (whitepaper page 3)
         vacancyPayment: 1.0,       // ✅ 100% payment (whitepaper page 4)
@@ -58,7 +58,7 @@ function calculator() {
 
         get inforceTurnoverEvents() {
             // Annual turnover rate × team size × (project duration / 12 months)
-            const annualEvents = this.inForceTurnover * this.teamSize;
+            const annualEvents = this.inforceTurnover * this.teamSize;
             const projectEvents = annualEvents * (this.projectDuration / 12);
             return Math.round(projectEvents);
         },

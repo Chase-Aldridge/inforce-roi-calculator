@@ -1,5 +1,5 @@
 /**
- * InForce ROI Calculator - Productivity Curve Visualization
+ * INFORCE ROI Calculator - Productivity Curve Visualization
  *
  * Visualizes the Productivity Value Gap (PVG) concept from whitepaper
  * Shows how productivity ramps up after a turnover event
